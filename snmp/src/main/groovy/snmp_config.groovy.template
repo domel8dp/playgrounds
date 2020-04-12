@@ -1,0 +1,6 @@
+// save without the .template extension (e.g. snmp_config.groovy)
+snmp {
+    address = '127.0.0.1/161'
+    community = 'public'
+    baseOid = '1.3.6.1.2.1.1'
+}

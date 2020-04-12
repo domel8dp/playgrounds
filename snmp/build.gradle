@@ -1,0 +1,17 @@
+plugins {
+    id 'groovy'
+}
+
+
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://snmp.app/dist"
+    }
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.3'
+    implementation group:'org.snmp4j', name: 'snmp4j', version: '3.4.0'
+}
