@@ -1,0 +1,13 @@
+plugins {
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.3'
+    implementation 'com.typesafe.akka:akka-actor-typed_2.12:2.6.4'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+}
