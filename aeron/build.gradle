@@ -1,0 +1,14 @@
+plugins {
+    id 'groovy'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:3.0.3'
+    implementation 'io.aeron:aeron-client:1.28.2'
+    implementation 'io.aeron:aeron-driver:1.28.2'
+}
