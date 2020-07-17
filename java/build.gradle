@@ -8,5 +8,4 @@ repositories {
 
 dependencies {
     implementation 'org.codehaus.groovy:groovy-all:3.0.3'
-    implementation 'io.nats:jnats:2.6.8'
 }
