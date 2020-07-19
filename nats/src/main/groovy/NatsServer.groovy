@@ -5,7 +5,8 @@ import java.nio.charset.StandardCharsets
 import java.util.concurrent.CountDownLatch
 
 def options = new Options.Builder()
-        .servers(['nats://172.17.0.2:4222', 'nats://172.17.0.3:4222'] as String [])
+// 'nats://ready2go@192.168.0.22:4222', 'nats://ready2go@192.168.0.22:4223'
+        .servers(['nats://ready2go@172.17.0.2:4222', 'nats://ready2go@172.17.0.3:4222'] as String [])
         .connectionName('Server Connection')
         .build()
 
